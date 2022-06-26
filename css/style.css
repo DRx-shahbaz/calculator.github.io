@@ -1,0 +1,87 @@
+
+
+  .title{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: darkblue;
+    border-color: brown 5px;
+  }
+  input[type="button"]{
+    background-color: black;
+    color: rgb(160, 144, 124);
+    border: solid black 3px;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(235, 233, 233);
+    border-radius: 10px;
+    border: 3px solid #7a0000;
+    background-color: rgb(46, 43, 43);
+    font-size: 2rem;
+    color: rgb(253, 253, 253);
+  }
+
+
+  input[type="text"]{
+    background-color: antiquewhite;
+    border: solid black 2px;
+    border-radius: 15px;
+        font-size: 1.5rem;
+        width: 97%;
+        height: 85px;
+        border:solid rgb(134, 109, 109) 3px;
+        background-color: #1b1212;
+        color: #fff;
+        text-align: right;
+        /* padding-right: 20px;
+        padding-left: 10px; */
+      }
+  
+
+
+  .all-clear {
+    background-color: #e5c2c5;
+    border-color: #fdf8f8;
+    color: #fff;
+  }
+  
+  .all-clear:hover {
+    background-color: #e9a7a7;
+  }
+  
+  .equal-sign {
+    background-color: #043555;
+    border-color: #337cac;
+    color: #fff;
+    height: 100%;
+  }
+  
+  .equal-sign:hover {
+    background-color: #0063a5;
+  }
+
+  .button {
+    height: 60px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    font-size: 2rem;
+    color: rgb(133, 1, 1);
+   
+  }
+  
+  .button:hover {
+    background-color: #c49797;
+  }
+
+  .calculator {
+    border: 3px solid rgb(129, 2, 2);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+  }
